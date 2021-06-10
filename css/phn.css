@@ -1,0 +1,97 @@
+/* navigation*/
+
+#navbar {
+    flex-direction: column;
+    position: relative;
+}
+#navbar ul li a{
+    font-size: 1em;
+    padding: 6px;
+    /* padding-bottom: 8px; */
+}
+/* home */
+#home{
+     height: 360px;
+    margin-bottom: 75px; 
+    padding: 60px 10px;
+
+/* height: 370px;
+padding: 3px 68px;
+    */
+    
+}
+
+#home::before{
+    height: 480px;
+}
+
+#home p{
+    font-size: 13px;
+    padding: 0;
+}
+/* #home .h-prim{
+    padding: 0px;
+    margin: 20px;
+} */
+#home .h-prim {
+    font-size: 30px;
+    padding-top: 50px;
+    margin: 6px;
+}
+
+
+
+/* services */
+#services{
+    flex-direction: column;
+}
+#services .box {
+   
+    margin: 2px 0px;                      /*5,33 */
+    padding: 14px;
+    margin-bottom: 20px;
+    
+  }
+  #services .h-secondary{
+      font-size: 36px;
+  }
+  
+  #services .box p {
+      font-size: 15px;
+  }
+/* clients */
+
+#client{
+    flex-wrap: wrap;
+}
+
+#client img{
+ width: 150px;
+ padding: 0 6px;
+ margin: 0;
+ 
+}
+#client::before{
+    height:40%;
+}
+#client .h-prim
+{
+    font-size: 26px;
+    /* margin-top: 10px; */
+}
+
+/* contact */
+#contact-box form{
+    width: 100%;
+}
+
+/* utility classes */
+.h-prim
+{
+    font-size: 26px;
+}
+
+.btn{
+    padding: 4px 8px;
+    margin: 5px;
+}
